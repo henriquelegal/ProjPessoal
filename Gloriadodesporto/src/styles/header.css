@@ -1,26 +1,36 @@
 #navbar {
-    width: 84%;
-    padding: 5px 8%;  
+    width: 100%;
+    padding: 5px 0%;
     background-color: var(--color-primary-4);
     display: flex;
-    justify-content: space-between;    
+    justify-content: center;
     align-items: center;
 }
-#nav_list{
+
+#nav_list {
     display: flex;
     justify-content: center;
     gap: 48px;
-    
+
 }
-#navbar  ul li{
+
+#navbar ul li {
     padding: 10px;
     list-style: none;
-    
+
 }
-.nav-item a{
+
+.nav-item a {
     text-decoration: none;
     color: var(--color-primary-1);
     margin-right: 10px;
-    font-weight: 300;
-    
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+#navbar i img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
 }
