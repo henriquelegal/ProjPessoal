@@ -1,17 +1,47 @@
-h2 {
 
-    color: white;
+.contratacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px; 
 }
-h1{
-    color: white
+.texto-contratacao {
+    flex: 1;
+    padding-right: 20px;
 }
-h3 {
-    color: aliceblue;
-    max-width: 40%;
+
+.texto-contratacao h2 {
+    color: #ffffff;
 }
-img{
-    width: 370px;
-    height: 300px;
-    margin-left: 780px;
-    max-width: 100%;
+
+.texto-contratacao p {
+    margin-bottom: 20px;
+    color: #ccc; 
 }
+
+.imagem img {
+    max-width: 75%; 
+    border-radius: 8px; 
+    width: 940px; 
+    height: 400px;
+    
+}
+
+.video {
+    flex: 1;
+    overflow: hidden; 
+}
+#img1{
+
+    width: 940px; 
+    height: 400px;
+}
+#p1{
+font-size: larger;
+
+}
+
+
