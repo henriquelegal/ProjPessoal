@@ -1,0 +1,62 @@
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+      color: black; }
+
+      .contratacoes-banner {
+        background-color: #696969; 
+        color: #868686;
+        text-align: center;
+        padding: 200px;
+        font-size: 100px; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .zoom-effect {
+        transition: transform 0.3s; 
+    }
+
+    .zoom-effect:hover {
+        transform: scale(1.1); 
+    }
+    .bola {
+        position: absolute;
+        top: 10px;
+        left: 615px;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    
+    .nome-jogador {
+        position: absolute;
+        bottom: 10px;
+        left: 615px;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+     
+      .image-container {
+        position: relative;
+    }
+
+    .image-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+        pointer-events: none;
+    }
