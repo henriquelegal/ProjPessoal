@@ -3,7 +3,7 @@
   .carousel-control-next {
       color: black; }
 
-      .contratacoes-banner {
+      .contratacoes-banner, .resultados-banner{
         background-color: #696969; 
         color: #868686;
         text-align: center;
