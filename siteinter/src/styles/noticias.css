@@ -1,6 +1,107 @@
+.not1{
+height:295px;
+
+}
+.not2, .not3, .not4{
+    height: 210px;
+}
+
 .section__header > h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
     color: rgb(182, 25, 24);
     margin: 0px;
+}
+
+.section {
+    padding: 60px 0;
+    background-color: #dddddd;
+}
+
+.section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #b61918;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.dish-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dish {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.dish:hover {
+    transform: translateY(-5px);
+}
+
+.dish img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.dish h5 {
+    font-size: 1.5em;
+    color: #b61918;
+    margin-bottom: 10px;
+}
+
+.dish p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.dish a {
+    color: #b61918;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dish a:hover {
+    text-decoration: underline;
+}
+
+
+#imgp{
+    width: 70px;
+    display: flex;
+    justify-content: left;
+}
+
+
+#banner2 h2  {
+    height: 100vh;
+    background-image: url(https://internacional.com.br/static/bg-beira-rio-red-64f863f34fc1071b77645f2281dbc87e.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+.jogo {
+    height: 600px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(https://internacional.com.br/static/bg-beira-rio-red-64f863f34fc1071b77645f2281dbc87e.png);
 }
