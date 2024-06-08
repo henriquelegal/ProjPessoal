@@ -5,18 +5,11 @@
 
 Este e um projeto feito por um aluno do curso tecnico de informatica do São lucas
 
-O projeto e sobre a atual temporada do internacional, no site teremos as contratações da temporada, as expectativas, e os resultados
+O projeto e sobre a atual temporada do internacional, no site teremos as contratações da temporada, as noticias recentes, e os resultados
 
-## Layout mobile
+## Layout 
 ![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
 
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
-
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
-
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 ## Back end
